@@ -7,7 +7,7 @@ import { GifGrid } from "./Components/GifGrid"
 export const GifApp = () => {
 
   const [categories, setCategories] = useState([""]);
-  const [limit, setLimit] = useState([]);
+  const [limit, setLimit] = useState([""]);
   return (
     <div className="h-screen bg-blue-900">
       <header>
